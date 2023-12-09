@@ -1,0 +1,76 @@
+body{
+    background-color: burlywood;
+    color: black;
+}
+span{
+    padding: 10px;
+}
+
+#navbar a {
+float: left;
+display: flex;
+color: beige;
+text-align: center;
+padding: 14px;
+text-decoration: none;
+border-radius: 10px;
+}
+#navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: grey;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+#div1{
+    background-color: blueviolet;
+    color: white;
+    height: 200px;
+}
+#flex2{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    width: 200px;
+    background: grey;
+}
+#flex3{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    width: 200px;
+    background-color: grey;
+}
+#flex4 {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: grey;
+}
+#flex-item1{
+    border: 1px solid black;
+    background-color: grey;
+    border-radius: 20px;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+}
+#btn{
+margin: 10px;
+}
+input{
+    width: 800px;
+}
